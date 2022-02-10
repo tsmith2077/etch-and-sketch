@@ -4,10 +4,21 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 960px;
+    height: 960px;
 }
 
 .div_container {
     border: solid black;
-    height: 5.25vh;
-    width: 5.75vw;
+    display: flex;
+    flex: auto;
+    height: 100px;
+    width: 100px;
+}
+
+#btn {
+    padding: 10px 16px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-left: 50vw;
 }
